@@ -8,3 +8,5 @@ make -j 16 CC="ccache gcc" KBUILD_BUILD_TIMESTAMP='' && qemu-system-x86_64 -kern
 ```
 make KCPPFLAGS="-dD" drivers/video/fbdev/efifb.i
 ```
+
+- https://gcc.gnu.org/onlinedocs/cpp/Preprocessor-Output.html
